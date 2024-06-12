@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(namorados.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #222121;
+    font-size: 40px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #036bc0;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+#moment-buttonLA{
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #ff00aa;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+#moment-buttonLA:hover{
+    background-color: #07e26a;
+    color: #000000;
+}
+
+.buttons button:hover {
+    background-color: #ff0000;
+    color: #ffee00;
+}
+
+.message-container {
+    margin-top: 20px;
+    font-size: 30px;
+    color:#292828;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.message-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.message-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
